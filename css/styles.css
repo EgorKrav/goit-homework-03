@@ -1,0 +1,229 @@
+:root {
+    --primary-brand-color:#4D5AE5;
+    --dark-color:#2E2F42;
+    --text-color:#434455;
+    --cloud-color:#ffffff;
+    --cornflower-color:#E7E9FC;
+    --lightcloud-color:#F4F4FD;
+    --pressedstate-color:#404BBF;
+    
+}
+
+body {
+    background-color:var(--cloud-color);
+    color:var(--dark-color);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.logo {
+    color:var(--primary-brand-color);
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    
+}
+
+.logo-two {
+    color: var(--dark-color);
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+    
+}
+
+.site-nav a {
+    color:var(--dark-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--primary-brand-color);
+}
+
+.contacts-nav a {
+    color:var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+    color: var(--primary-brand-color);
+}
+
+.hero {
+    background-color: var(--dark-color);
+}
+
+.hero-title {
+    color:var(--cloud-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    letter-spacing: 0.02em; 
+    text-align: center;  
+}
+
+.button-one {
+    color: var(--cloud-color);
+    background-color:var(--primary-brand-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-family: inherit;
+    align-items: center;
+}
+
+.button .link:hover
+.button .link:focus {
+    background-color:var(--pressedstate-color);
+}
+
+.features-title {
+    color:var(--dark-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.text {
+    color:var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.work-title,
+.command-title {
+    color:var(--dark-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.command {
+    background-color: var(--lightcloud-color);
+}
+
+.name-title {
+    color: var(--dark-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.profession {
+    color:var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.basement {
+    background-color: var(--dark-color);
+}
+
+.basement-text {
+    color: var(--cornflower-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.logo-web {
+    color:var(--primary-brand-color);
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-studio {
+    color:var(--lightcloud-color);
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+  
+/* Стили для портфолио */
+
+
+.filters-button {
+    color: var(--primary-brand-color);
+    background-color:var(--lightcloud-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    align-items: center;
+    font-family: inherit;
+}
+
+.filters-button .link:focus,
+.filters-button .link:hover {
+    color:var(--cloud-color);
+    background-color:var(--pressedstate-color);
+}
+
+.projects-title {
+    color:var(--dark-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.comfort-title {
+    color:var(--dark-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.projects {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
