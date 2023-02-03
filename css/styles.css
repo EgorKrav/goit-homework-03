@@ -1,3 +1,7 @@
+
+
+
+
 :root {
     --primary-brand-color:#4D5AE5;
     --dark-color:#2E2F42;
@@ -16,6 +20,11 @@ body {
     
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1158px;
+}
 
 .logo {
     color:var(--primary-brand-color);
@@ -40,6 +49,8 @@ body {
 
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
     
 }
 
@@ -74,6 +85,7 @@ body {
 
 .hero {
     background-color: var(--dark-color);
+    text-align: center;  
 }
 
 .hero-title {
@@ -82,7 +94,8 @@ body {
     font-size: 56px;
     line-height: 1.1;
     letter-spacing: 0.02em; 
-    text-align: center;  
+    margin-top: 0;
+    margin-bottom: 48px;
 }
 
 .button-one {
@@ -93,12 +106,22 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     font-family: inherit;
-    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 105px;
+    border: transparent;
 }
 
 .button .link:hover
 .button .link:focus {
     background-color:var(--pressedstate-color);
+}
+
+.features {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    
 }
 
 .features-title {
@@ -107,6 +130,8 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    margin-top: 0;
 }
 
 .text {
@@ -115,6 +140,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-top: 0;
 }
 
 .work-title,
@@ -225,5 +251,3 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-
