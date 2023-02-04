@@ -93,7 +93,9 @@ body {
 
 .hero {
     background-color: var(--dark-color);
-    text-align: center;  
+    text-align: center; 
+    padding-bottom: 292px;
+
 }
 
 .hero-title {
@@ -102,8 +104,8 @@ body {
     font-size: 56px;
     line-height: 1.1;
     letter-spacing: 0.02em; 
-    margin-top: 0;
-    margin-bottom: 48px;
+    padding-top: 188px;
+    
 }
 
 .button-one {
@@ -119,6 +121,7 @@ body {
     padding: 16px 32px;
     min-width: 105px;
     border: transparent;
+    
 }
 
 .button .link:hover
@@ -151,6 +154,10 @@ body {
     margin-top: 0;
 }
 
+.work {
+    padding-bottom: 120px;
+}
+
 .work-title,
 .command-title {
     color:var(--dark-color);
@@ -166,6 +173,14 @@ body {
 
 .command {
     background-color: var(--lightcloud-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.card {
+    background-color: var(--cloud-color);
+    border-radius: 0px 0px 4px 4px;
+    
 }
 
 .name-title {
@@ -174,7 +189,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 0;
+    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -184,11 +199,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 0;
+    padding-bottom: 32px;
 }
 
 .basement {
     background-color: var(--dark-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .basement-text {
@@ -233,7 +250,12 @@ body {
     text-align: center;
     align-items: center;
     font-family: inherit;
+    padding: 12px 24px;
+    border: 1px var(--cornflower-color);
+    border-radius: 4px;
+
 }
+
 
 .filters-button .link:focus,
 .filters-button .link:hover {
@@ -255,6 +277,8 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .projects {
@@ -263,4 +287,5 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
 }
