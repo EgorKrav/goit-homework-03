@@ -102,8 +102,7 @@ body {
     display: block;
 }
 
-.header-list .link:hover,
-.header-list .link:focus {
+.link:focus, .link:hover {
     color: var(--primary-brand-color);
 }
 
@@ -114,6 +113,8 @@ body {
 
 .contacts-list {
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .contacts-list .link:hover,
@@ -157,6 +158,9 @@ body {
     letter-spacing: 0.02em;
     color: var(--cloud-color);
     margin-bottom: 48px;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 
     text-align: center;
 }
@@ -171,7 +175,7 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: var(--cloud-color);
-    background: var(--primary-brand-color);
+    background-color: var(--primary-brand-color);
     
     cursor: pointer;
     display: block;
@@ -180,10 +184,9 @@ body {
     margin: 0 auto;
 }
 
-.hero-btn .link:hover,
-          .link:focus {
-    background-color: var(--pressedstate-color);
-    
+.hero-btn:hover,
+.hero-btn:focus {
+   background-color: var(--pressedstate-color);
 }
 
     /*     --------  FEATURES  --------       */
@@ -235,12 +238,14 @@ body {
 }
 
 .work-title {
+    
     font-family: inherit;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--dark-color);
+    margin: 0;
 
     text-align: center;
     text-transform: capitalize;
@@ -267,17 +272,18 @@ body {
 }
    
 .team-title {
+    margin: 0;
     font-family: inherit;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--dark-color);
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 
     text-align: center;
     text-transform: capitalize;
-    margin: 0;
+    
 
 }
 
@@ -314,7 +320,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark-color);
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     margin: 0;
 
     text-align: center;
@@ -343,10 +349,12 @@ body {
 }
 
 .footer-logo {
+    display: block;
     margin-bottom: 16px;
 }
 
 .footer-text {
+    margin: 0;
     font-family: inherit;
     font-weight: 400;
     font-size: 16px;
@@ -382,21 +390,13 @@ body {
     padding-bottom: 120px;
 }
 
-.container-portfolio {
-    width: 1158px;
-    padding: 0px 15px;
-    border-top: none;
-    margin-left: auto;
-    margin-right: auto;
-
-}
 
 .portfolio-list {
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }    
  
 .portfolio-item:not(:last-child) {
@@ -412,7 +412,6 @@ body {
     letter-spacing: 0.04em;
     color: var(--primary-brand-color);
 
-    align-items: center;
     text-align: center;
     cursor: pointer;
     
